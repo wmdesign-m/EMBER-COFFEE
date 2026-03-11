@@ -739,6 +739,11 @@ Tablet (min-width: 560px~)
 	}
 
 	.main-nav {
+		background: none;
+		padding: 0;
+		box-shadow: none;
+		border-radius: 0;
+		
 	display: flex;
 	position:static;
 	flex-direction: row;
@@ -1076,3 +1081,4 @@ Desktop (min-width: 960px~)
 	}
 
 }
+
