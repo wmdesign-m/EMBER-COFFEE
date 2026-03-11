@@ -184,6 +184,11 @@ Header
 
 	gap: 1rem;
 
+	background-color: rgba(255,255,255,0.9);
+	padding: 1rem 1.2rem;
+	border-radius: 10px;
+	box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+
 	opacity:0;
 	visibility:hidden;
 	transform:translateY(-10px);
@@ -1069,4 +1074,5 @@ Desktop (min-width: 960px~)
 	.info th {
 		padding-left: 2.5rem;
 	}
+
 }
