@@ -228,15 +228,15 @@ Header
 .main-nav a::after {
 	content: "";
 	position: absolute;
-	left: 0;
+	left: 50%;
 	bottom: -4px;
 
-	width: 100%;
+	width: 60%;
 	height: 1px;
 	background-color: var(--hover);
 
-	transform: scaleX(0);
-	transform-origin: left;
+	transform: translateX(-50%) scaleX(0);
+	transform-origin: center;
 	transition: transform .25s ease;
 }
 .main-nav a:hover,
@@ -245,7 +245,7 @@ Header
 }
 .main-nav a:hover::after,
 .main-nav a:focus::after {
-	transform: scaleX(1);
+	transform: translateX(-50%) scaleX(1);
 }
 body.menu-open::before {
 	content: "";
@@ -1004,4 +1004,5 @@ Desktop (min-width: 960px~)
 	.info th {
 		padding-left: 2.5rem;
 	}
+
 }
