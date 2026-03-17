@@ -512,10 +512,9 @@ NEWS
 .sidebar .side-menu:last-of-type {
 	margin-bottom: 0;
 }
-.ad {
+.ad img {
 	margin-top: 2rem;
 	border-radius: 24px;
-	overflow: hidden;
 }
 
 /* ==============================================
